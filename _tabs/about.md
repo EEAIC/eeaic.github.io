@@ -50,6 +50,11 @@ order: 4
 - Position: Member
 
 ## Project
+### [Mobile Rhythm Game with Computer Vision](https://github.com/EEAIC/RhythmVisionGame)
+- Nov.2020 - Dec.2020
+- On Android, Real-time pose estimation game powered by Google ML Kit
+- Final project of *mobile programming* (2020.Fall)
+
 ### [XE-LIFO Comment Translator](https://github.com/EEAIC/xe-Naver.openapi-papago)
 - Apr.2019 - May.2019
 - Comment translator for XE powered by NAVER™ OpenAPI
@@ -62,8 +67,11 @@ order: 4
 
 ### [TOAST UI Editor for XE](https://github.com/EEAIC/xe-tui.editor)
 - Feb.2019 - Mar.2019
-- Markdown editor for XE powered by NHN™ TOAST UI Editor
+- Markdown editor for XE powered by NHN TOAST UI Editor
 - Deploy to [XETOWN Point Contents](https://xetown.com/point_contents/1183106)
+
+## Honor
+- Scholarship for Academic Excellence (25% Tuition) - Fall.2021
 
 ## Skill
 ### Frameworks, Platforms and Libraries

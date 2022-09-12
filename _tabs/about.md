@@ -20,33 +20,33 @@ order: 4
 
 ## Experience
 ### [Hyundai R&D Division AI Competition 2022](https://www.hyundai-ai-competition.com/apply)
-- Jul.2022 ~ Oct.2022
+- Jul.2022 - Oct.2022
 - Field: *Trade Secret*
 
 ### [NAVER CLOVA AI RUSH 2022](https://campaign.naver.com/clova_airush/)
-- Jun.2022 ~ Jul.2022
+- Jun.2022 - Jul.2022
 - Round 1 Field: Photo cloud development - Landmark recognition
 
 ### NAVER CLOVA AI RUSH 2021
-- May.2021 ~ Jun.2021
+- May.2021 - Jun.2021
 - Round 1 Field: Photo cloud development - Exteneded image classification
 
 ### [KAIST Intelligent SoC Robot War 2017](http://www.socrobotwar.org/)
-- May.2017 ~ Aug.2017
+- May.2017 - Aug.2017
 - Field: SoC Taekwon Robot
 
 ### Soongsil University Capstone Design 2016
-- Jul.2016 ~ Sep.2016
+- Jul.2016 - Sep.2016
 - Field: Convergence Team
 - Work: 한여름밤의 꿀
 
 ## Activity
 ### Soongsil University AI Data Research Team
-- Jan.2021 ~ Aug.2021
+- Jan.2021 - Aug.2021
 - Position: Research student
 
 ### Soongsil University ROBOTICS Club
-- Mar.2016 ~ Feb.2022
+- Mar.2016 - Feb.2022
 - Position: Member
 
 ## Project

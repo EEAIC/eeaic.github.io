@@ -12,27 +12,33 @@ order: 4
 
 ## Education
 ### Sungkyunkwan University, Suwon, South Korea
-- *M.S in Electrical and Computer Engineering. (Mar.2022 - Present)*
+- *M.S in Electrical and Computer Engineering (Mar.2022 - Present)*
 
 ### Soongsil University, Seoul, South Korea
-- *B.S in Electronic Engineering. (Mar.2016 - Feb.2022)*
-- *B.S in AI Convergence. (Sep.2017 - Feb.2022)*
+- *B.S in Electronic Engineering (Mar.2016 - Feb.2022)*
+- *B.S in AI Convergence (Sep.2017 - Feb.2022)*
 
 ## Experience
-### [Hyundai R&D Division AI Competition](https://www.hyundai-ai-competition.com/apply)
-- July.2022 ~ Oct.2022
-- Competition
-    - *Trade Secret*
+### [Hyundai R&D Division AI Competition 2022](https://www.hyundai-ai-competition.com/apply)
+- Jul.2022 ~ Oct.2022
+- Field: *Trade Secret*
 
-### NAVER CLOVA AI RUSH 2021 1Round
-- May.2021 ~ June.2021
-- Competition
-    - Round 1: Photo cloud development - Exteneded image classification
+### [NAVER CLOVA AI RUSH 2022](https://campaign.naver.com/clova_airush/)
+- Jun.2022 ~ Jul.2022
+- Round 1 Field: Photo cloud development - Landmark recognition
+
+### NAVER CLOVA AI RUSH 2021
+- May.2021 ~ Jun.2021
+- Round 1 Field: Photo cloud development - Exteneded image classification
 
 ### [KAIST Intelligent SoC Robot War 2017](http://www.socrobotwar.org/)
 - May.2017 ~ Aug.2017
-- Competition
-    - SoC Taekwon Robot
+- Field: SoC Taekwon Robot
+
+### Soongsil University Capstone Design 2016
+- Jul.2016 ~ Sep.2016
+- Field: Convergence Team
+- Work: 한여름밤의 꿀
 
 ## Activity
 ### Soongsil University AI Data Research Team
@@ -42,6 +48,22 @@ order: 4
 ### Soongsil University ROBOTICS Club
 - Mar.2016 ~ Feb.2022
 - Position: Member
+
+## Project
+### [XE-LIFO Comment Translator](https://github.com/EEAIC/xe-Naver.openapi-papago)
+- Apr.2019 - May.2019
+- Comment translator for XE powered by NAVER™ OpenAPI
+- Deploy to [XETOWN Point Contents](https://xetown.com/point_contents/1215269)
+
+### [XE-LIFO Captcha](https://github.com/EEAIC/xe-Naver.openapi-captcha)
+- Apr.2019
+- Captcha for XE powered by NAVER™ OpenAPI
+- Deploy to [XETOWN Point Contents](https://xetown.com/point_contents/1210350)
+
+### [TOAST UI Editor for XE](https://github.com/EEAIC/xe-tui.editor)
+- Feb.2019 - Mar.2019
+- Markdown editor for XE powered by NHN™ TOAST UI Editor
+- Deploy to [XETOWN Point Contents](https://xetown.com/point_contents/1183106)
 
 ## Skill
 ### Frameworks, Platforms and Libraries

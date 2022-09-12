@@ -51,7 +51,7 @@ published: true
     apt install fonts-nanum fonts-nanum-coding fonts-nanum-extra
     ```
 
-## Reference
+# Reference
 1. [How do I launch MATLAB on Linux?](https://kr.mathworks.com/matlabcentral/answers/93739-how-do-i-launch-matlab-on-linux)
 2. [Installer hang when installing Matlab R2021b as root on Ubuntu 20.04](https://kr.mathworks.com/matlabcentral/answers/1459909-installer-hang-when-installing-matlab-r2021b-as-root-on-ubuntu-20-04#comment_1759029)
 3. [canberra-gtk-module 및 pk-gtk-module 메시지 제거하기 - MATLAB & Simulink - MathWorks 한국](https://kr.mathworks.com/help/matlab/matlab_env/remove-canberra-gtk-module-and-pk-gtk-module-messages.html)

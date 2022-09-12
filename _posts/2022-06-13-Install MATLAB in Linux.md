@@ -1,5 +1,5 @@
 ---
-title: "Install MATLAB in Linux"
+title: "Install MATLAB on Linux"
 date: 2022-06-13 23:38
 categories: [Computer Language, MATLAB]
 tags: [matlab, troubleshooting, programming language, installation]     # TAG names should always be lowercase
@@ -14,7 +14,7 @@ published: true
 5. 실행되는 프로그램의 지시에 따라 설치를 계속합니다. \
 ❗프로그램이 실행되 않을 경우 `export DISPLAY=':0.0'`을 입력 후 3번부터 다시 시도해보세요.
 
-# Creating a shortcut for MATLAB in the launcher
+# Creating a shortcut for MATLAB on the launcher
 1. 패키지를 설치합니다.
     ```bash
     sudo apt-get install matlab-support

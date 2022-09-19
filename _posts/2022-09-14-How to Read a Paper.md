@@ -7,7 +7,7 @@ math: false
 published: true
 ---
 
-> Review Paper: Keshav, Srinivasan. "How to read a paper." *ACM SIGCOMM Computer Communication Review*
+> Keshav, Srinivasan. "How to read a paper." *ACM SIGCOMM Computer Communication Review*
  37.3 (2007): 83-84.
 
 대학원 생활을 하면서 여러 논문을 읽을 기회가 생겼습니다. 문제는 논문 하나를 읽는데에 걸리는 시간이 너무나 길었습니다. 어떻게 하면 논문을 효율적으로 읽을 수 있을지 고민하였고 이 페이퍼를 찾게 되었습니다. 2007년에 나온 다소 오래된 논문이지만 저자가 제시한 방법은 꽤 그럴싸해 보입니다. 아래에 해당 페이퍼 전문에 대한 내용을 정리하였습니다.

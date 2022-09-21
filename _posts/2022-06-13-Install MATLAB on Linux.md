@@ -6,7 +6,7 @@ tags: [matlab, troubleshooting, programming language, installation]     # TAG na
 published: true
 ---
 
-# Installing Process
+# Installing process
 1. Linux용 MATLAB 설치 압축파일을 [MathWorks](https://kr.mathworks.com/downloads/web_downloads/)에서 다운로드하세요.
 2. Matlab 폴더를 생성 후 해당 폴더 안에서 다운로드 받은 파일의 압축을 푸세요.
 3. `sudo ./install`를 입력하세요.

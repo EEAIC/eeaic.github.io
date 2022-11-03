@@ -11,15 +11,23 @@ img_path: "/assets/img/posts/2022-11-02-Conditional Image Generation with PixelC
 > Van den Oord, Aaron, et al. "Conditional image generation with pixelcnn decoders." Advances in neural information processing systems 29 (2016).
 
 # Introduction
-## PixelRNN
+이 논문은 기존의 PixelRNN과 PixelCNN을 제시한 논문[^1]을 발전시켰습니다.
+해당 논문에서는 두 가지 형태의 PixelRNN\(Row LSTM, Diagonal BiLSTM\)과 PixelCNN을 제시합니다. 각 모델에 대한 자세한 내용은 해당 논문을 참조하시길 바랍니다. 여기서는 각 모델을 장단점을 바탕으로 어떻게 향상시켰는지에 대해 설명하겠습니다.
 
-## PixelCNN
+PixelRNN은 일반적으로 좋은 성능을 보여줍니다. 하지만, PixelCNN에 비해 학습이 느리다는 단점을 가지고 있습니다. 이는 PixelCNN이 병렬화가 가능하다는 장점 때문에 더 빠르게 학습킬 수 있습니다. 하지만, PixelCNN의 경우 blind spot이 존재한다는 단점이 있습니다. 이 때문에 PixelRNN에 비해 성능이 떨어지는 문제를 가지고 있습니다.
+
+여기서는 두 모델의 장점을 결합한 Gated PixelCNN을 제안합니다. 이 모델이 학습하는데 걸리는 시간을 PixelRNN 대비 절반 이하로 줄였으며 성능 또한 그 이상이라고 합니다.
+
+또한, 저자들은 Gated PixelCNN에 latent 벡터 임베딩을 조건으로 추가한 Conditional PixelCNN을 제안합니다. Conditional PixelCNN은 원-핫 엔코딩 형태로 조건을 주어 여러 클래스로부터 이미지를 생성하는데에 사용될 수 있습니다. 이외에도, 이미지의 high level 정보를 가지고 있는 임베딩을 사용하여 비슷한 특징을 가지고 있는 여러 다양한 이미지를 생성할 수 있습니다.
 
 # Gated PixelCNN
-do-0
+## Gated Covolutional Layers
 
-# Condtional PixelCNN
-do-0
+## Blind spot in the receptive field
+
+## Conditional PixelCNN
+
+## PixelCNN Auto-Encoders
 
 # Experiments
 ## Unconditional Modeling with Gated PixelCNN
@@ -60,7 +68,7 @@ Figure 4를 통해 생성된 샘플을 확인할 수 있습니다. 소스 이미
 ![Figure 5](figure_5.png){: .align-center}
 *Figure 5: 임베딩 공간에서 선형 보간된 결과가 주어졌을 때 PixelCNN에 의하여 생성된 결과. 가장 왼쪽과 오른쪽 이미지는 보간의 끝 점으로 사용됨.*
 
-마지막으로 저자들은 이미지쌍의 임베딩간의 선형 보간[^1]된 결과가 조건으로 주어졌을 때 생성하는 실험을 진행하였습니다. 이 결과는 Figure 5를 통해 확인할 수 있습니다.
+마지막으로 저자들은 이미지쌍의 임베딩간의 선형 보간[^2]된 결과가 조건으로 주어졌을 때 생성하는 실험을 진행하였습니다. 이 결과는 Figure 5를 통해 확인할 수 있습니다.
 
 ## PixelCNN Auto Encoder
 이 실험은 auto-encoder의 디코더를 PixelCNN으로 사용하여 end-to-end 훈련을 진행합니다. 32x32 크기의 ImageNet 패치를 사용하며 MSE를 통해 최적화하여 auto-encoder를 훈련하였습니다. 모델의 bottleneck의 차원은 10 또는 100으로 설정하였습니다.
@@ -94,7 +102,7 @@ PixelCNN의 디코더와 함께 bottleneck에서 인코딩된 정보인 represen
 : PixelCNN과 VAE를 결합한 모델입니다.
 
 1. PixelCNN++
-: PixelCNN을 ++시킨 모델입니다.
+: Gated PixelCNN을 +시킨 모델입니다.
 
 ## Applications
 1. WaveNet: A Generative Model for Raw Audio
@@ -104,4 +112,5 @@ PixelCNN의 디코더와 함께 bottleneck에서 인코딩된 정보인 represen
 
 ---
 #### Reverse Footnote
-[^1]: linear interpolation
+[^1]: Van Den Oord, Aäron, Nal Kalchbrenner, and Koray Kavukcuoglu. "Pixel recurrent neural networks." International conference on machine learning. PMLR, 2016.
+[^2]: linear interpolation

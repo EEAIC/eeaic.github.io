@@ -20,7 +20,7 @@ order: 4
 
 ## Experience
 ### [Hyundai R&D Division AI Competition 2022](https://www.hyundai-ai-competition.com/apply)
-- Jul.2022 - Oct.2022
+- Jul.2022 - Aug.2022
 - Field: *Trade Secret*
 
 ### [NAVER CLOVA AI RUSH 2022](https://campaign.naver.com/clova_airush/)

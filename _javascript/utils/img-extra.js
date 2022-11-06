@@ -25,18 +25,25 @@ $(function() {
       const title = nextTag.prop('tagName') === 'EM' ? nextTag.text() : '';
       const src = $(this).attr('data-src'); // created by lozad.js
 
-      $(this).wrap(`<a href="${src}" title="${title}" class="popup"></a>`);
+      $(this).wrap(`<a href="${src}" class="popup"></a>`);
     }
   );
 
   $('.popup').magnificPopup({
     type: 'image',
     closeOnContentClick: true,
-    showCloseBtn: false,
+    showCloseBtn: true,
     zoom: {
       enabled: true,
       duration: 300,
       easing: 'ease-in-out'
+    },
+    image : {
+      titleSrc: function(item) {
+          let nextTag = $(item.el).next();
+          const title = nextTag.prop('tagName') === 'EM' ? nextTag.html() : '';
+          return title;
+        }
     }
   });
 

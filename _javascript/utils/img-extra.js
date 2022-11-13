@@ -21,8 +21,6 @@ $(function() {
 
   $(`${IMG_SCOPE} p > img[data-src],${IMG_SCOPE} img[data-src].preview-img`).each(
     function() {
-      let nextTag = $(this).next();
-      const title = nextTag.prop('tagName') === 'EM' ? nextTag.text() : '';
       const src = $(this).attr('data-src'); // created by lozad.js
 
       $(this).wrap(`<a href="${src}" class="popup"></a>`);
@@ -32,7 +30,7 @@ $(function() {
   $('.popup').magnificPopup({
     type: 'image',
     closeOnContentClick: true,
-    showCloseBtn: true,
+    showCloseBtn: false,
     zoom: {
       enabled: true,
       duration: 300,

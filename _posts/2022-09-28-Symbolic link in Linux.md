@@ -33,13 +33,11 @@ ln -s source_file symbolic_link
 unlink symbolic_link
 ```
 
-생성된 symbolic link를 제거하기 위해서는 `unlink` 혹은 `rm` 명령을 사용하면 됩니다.
-
 ```shell
 rm symbolic_link
 ```
 
-만약 `source file`을 다른 위치로 옮기면 symbolic link가 손상되며 이때에는 `rm` 명령을 사용하여 제거해야 합니다.
+생성된 symbolic link를 제거하기 위해서는 `unlink` 혹은 `rm` 명령을 사용하면 됩니다.
 
 # Overwriting symbolic link
 

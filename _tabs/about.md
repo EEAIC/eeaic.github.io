@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 ## Current
-- M.S Student @ [MIDAS Lab](https://www.midasl.ch/)
+- M.S Student
 - Research
     - Artificial Intelligence
     - Autonomous Driving
